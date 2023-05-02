@@ -1,0 +1,103 @@
+* Classes
+**  Maths
+- Calculus
+- Algebra
+- PDE
+- Network Analysis
+- Statistics
+*** Self Study
+- Convex Optimisation
+- Numerical Analysis
+** Computer Science
+- Foundations of Data Science (R)
+- Introduction to Programming (Python)
+- Introduction to Computer Systems (Arduino)
+- Computing 1B OS and Network Platforms (Python)
+- Object-Oriented Programming (Java)
+- Systems Programming (C)
+- Programming Languages, Logic and Models (Java)
+- Data and Information Management (SQL)
+- Agile Software Development Practices (Java)
+- Algorithm Design (Python)
+- Programming Languages and Paradigms (Java)
+- Sign Detection Project (Python)
+- Advanced Algorithms (Latex)
+- Web FrontEnd Programming (React)
+- Machine Learning And Data Mining (Python)
+- (In)Formal Methods: The Lost Art  (Python)
+- Algorithms For Intractable Problems (SageMath)
+- Solving Modern Programming Problems With Rust (Rust)
+- Information Technology Project (React, Python)
+*** Self Study
+- Parallel Computing (C++)
+- Neural Network (Python)
+- Graphics (C++)
+
+* Projects
+** USYD
+1. μ programming language, https://gitfront.io/r/user-3433146/YogCP6vcEEWj/programming-language/
+
+Worked in a team to built parser, compiler and intepretor for a simple imperative language µ in Java. We also did automatic program code optimisation such as unreachable code removal, constant propagation, and deadcode elimination.
+
+2. Sign-Detection, https://github.com/Yuanda-Dong/Sign-Detection-Client-Final-Deployment
+
+In this project, I implemented traffic sign detection algorithms using a combination of computer vision (openCV) and Neural Network (TensorFlow) and tested using simulated and real-world data. I also worked on interfacing the model prediction with RMracerlib which is a python library used for controlling model cars.
+
+3. Protein Interaction network, https://github.com/Yuanda-Dong/Network-Analysis-to-PPI-Network
+
+I worked with biochemistry students to apply network analysis techniques to identify critical nodes in Yeast Network for limiting the proliferation of cancers.
+
+** UNSW
+1. Rust Adventurer, https://gitfront.io/r/user-3433146/scjzw6WGSk71/adventurers/
+
+Implemented an "adventure" style 2D game in the terminal, which supports a generic task system that allows developers to add new tasks (quests) to the game easily.
+
+2. Rust IRC Server, https://gitfront.io/r/user-3433146/M34VKy3AJgjr/IRC-server/
+
+Implemented an Internet Relay Chat (IRC) server in Rust, that spawns a new OS thread for each client connection, and maintains the shared data in the main thread. The implementation also supported a generic plugin (extension) system.
+
+3. Convex Optimisation, https://gitfront.io/r/user-3433146/seb23eRXqhwJ/CVX-optimisation/
+
+Wrote an essay summarizing Professor Boyd’s book on convex optimization, and experimented with Boolean LP relaxation, and portfolio optimisation using CVXPY.
+
+4. Kahoot Clone, https://gitfront.io/r/user-3433146/1TPPcc4fSt3e/Kahoot-Clone/
+
+Implemented the fron-end of a Kahoot clone using ReactJS. The game allows an admin to host the kahoot game, and multiple players to play.
+
+5. TicketPlanet, https://gitfront.io/r/user-3433146/P3HkkDp8Qf5k/TicketPlanet/
+
+Worked in a team to develop an event management platform TicketPlanet similar to Eventbrite. I worked mainly on the front-end React code, and backend logic such as search filter, recommender system.
+
+** Self
+1. Cuda Programming, https://gitfront.io/r/user-3433146/LBLJTWSbE2Em/cuda/
+
+Implemented parallel prefix-sum, and parallelised a circle rendering algorithm that utilistes the GPU in Cuda. The Code was ran on an Amazon EC2 instance.
+
+2. Task Execution library, https://gitfront.io/r/user-3433146/NnBmezce1Vx4/Task-Execution-Library/
+
+Implemented a C++ library that executes tasks provided by an application in parallel using a thread pool. Conditional variables are used to prevent threads from busy waiting.
+
+3. Emacs Configuration, https://github.com/Yuanda-Dong/Emacs-Config
+
+Customised my Emacs with Emacs lisp. I learnt alot about what I wanted from editors in doing so.
+
+4. Numerical Analysis, https://gitfront.io/r/user-3433146/aptp4m6B1P6A/Num-Homework/
+
+Implemented and analysed various numerical algorithms, such as finite difference method, QR factorisation, Graph Partitioning using eigenvectors, Broyden's Method for root finding, gradient descent, and Adaptive Interpolation for (not so smooth) functions.
+
+5. Scotty3D, https://gitfront.io/r/user-3433146/Gozb4oBZx8v2/MyScotty3D/
+
+Implemented some core algorithms of the rasterisaiton pipeline (WIP).
+
+6. Pstree, https://gitfront.io/r/user-3433146/v1wD7a5QyQnS/Pstree/
+
+Implemented a simple linux command pstree in Rust.
+
+7. Blog, https://github.com/Yuanda-Dong/Yuanda-Dong.github.io
+
+Worked on a Github actions pipeline that allows me to write blogs in Emacs org mode, and publish on github pages easily.
+
+* Experiences
+** Student Mentor at University of Sydney, 2019
+Provided mentorship for first-year students. Helped with tutorial sessions for INFO1113
+Objective-oriented programming.

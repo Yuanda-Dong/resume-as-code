@@ -1,191 +1,160 @@
-name: Kyle Kosic
-source_code: github.com/kykosic/resume-as-code
-host_link: cv.kylekosic.dev
-email: kylekosic@gmail.com
+name: Yuanda Dong
+source_code: github.com/Yuanda-Dong/resume-as-code
+host_link: yuanda-dong.github.io/resume-as-code
+email: dongyuanda@gmail.com
 phone_number:
-  country_code: 1
-  number: 7082991185
-location: &atlanta
-  city: Atlanta
-  state: GA
-  country: US
-linkedin_profile: kylekosic
-github_profile: kykosic
+  country_code: 61
+  number: 434010630
+location: &sydney
+  city: Sydney
+  state: NSW
+  country: AU
+linkedin_profile: yuanda-d-131a33105
+github_profile: Yuanda-Dong
 about_me: >
-  Full-stack site reliability engineer and data scientist with extensive
-  background in mathematics. Self-motivated learner and problem solver with an
-  affinity for automation, scalability, and distributed computing.
+  Aspiring software engineer with background in mathematics. Self-motivated learner and problem solver with an affinity for automation, scalability and extensibility.
 education:
-- institution: Georgia Institute of Technology
+- institution: University of New South Wales
   major: Computer Science
-  description: Specialization in Machine Learning
+  description: "WAM: 88.0"
   period:
-    start: "2018-08-10T00:00:00Z"
-    end: "2019-12-15T00:00:00Z"
+    start: "2021-09-10T00:00:00Z"
+    end: "2022-12-15T00:00:00Z"
   degree: MASTERS
-  location: *atlanta
-- institution: University of Alabama in Huntsville
-  major: Physics and Mathematics
-  description: Dual Major, Physics and Applied Mathematics
+  location: *sydney
+- institution: University of Sydney
+  major: Computer Science and Mathematics
+  description: "WAM: 86.4"
   period:
-    start: "2011-08-20T00:00:00Z"
-    end: "2015-05-25T00:00:00Z"
+    start: "2018-03-20T00:00:00Z"
+    end: "2021-06-25T00:00:00Z"
   degree: BACHELORS
-  location: &huntsville
-    city: Huntsville
-    state: AL
-    country: US
+  location: *sydney
+# experience:
+# - title: Quantitative Analyst
+#   organization: Lucena Research
+#   website: https://lucenaresearch.com/
+#   period:
+#     start: "2018-12-20T00:00:00Z"
+#     end: "2019-04-12T00:00:00Z"
+#   location: *sydney
+#   duty:
+#   - description: Lead research and development of machine learning applied to trading equity and commodity markets.
+#     tags: [pandas, NumPy, TensorFlow, statsmodels, PyMC3, scikit-learn, Dask, Matplotlib, Jenkins, Git, Airflow, Redis, Cython, PostgreSQL]
+#   - description: Worked directly with data providers and portfolio managers to discover new investment strategies leveraging alternative data sets.
+#     tags: [pandas, NumPy, statsmodels, PySpark, Matplotlib, Airflow, EC2, EMR, Redshift, PostgreSQL]
 experience:
-- title: Member of Technical Staff
-  organization: OpenAI
-  website: https://openai.com/
+- title: UNSW Projects
   period:
-    start: "2021-04-12T00:00:00Z"
-  location: &sanfran
-    city: San Francisco
-    state: CA
-    country: US
-- title: Software Engineer, DevOps and Machine Learning
-  organization: OnScale
-  website: https://onscale.com/
-  period:
-    start: "2019-04-15T00:00:00Z"
-    end: "2021-04-07T00:00:00Z"
-  location: *atlanta
+    start: "2021-09-10T00:00:00Z"
+    end: "2022-12-15T00:00:00Z"
+  location: *sydney
   duty:
-  - description: Orchestrated physics solvers on multi-cloud HPCs via Kubernetes, enabling thousand-core simulations on-demand with end-to-end encryption.
-    tags: [boto3, Rusoto, Tokio, Serde, Kubernetes, Docker, Redis, Kafka, GKE, S3, EKS, DynamoDB, Lambda, Linux Bash]
-  - description: Responsible for building and maintaining CI/CD infrastructure for the microservice application stack.
-    tags: [Tornado, asyncio, Docker, Kubernetes, Prometheus, Helm, Jenkins, GitHub Actions, Git, Airflow, Redis, Kafka, Serverless, GKE, EKS, ECR, S3, CloudFormation, Linux Bash]
-  - description: Owner of the core simulation API framework, which has bindings to multiple programming languages and compiles generically for any physics solver.
-    tags: [PyO3, wasm-bindgen, bindgen, Syn, Quote, Serde, NumPy, asyncio, Tornado]
-  - description: Built machine learning models to optimize compute resource allocation for physics solvers, minimizing hardware costs.
-    tags: [pandas, NumPy, TensorFlow, scikit-learn, Kubernetes, Docker, Airflow, BigQuery]
-- title: Quantitative Analyst
-  organization: Lucena Research
-  website: https://lucenaresearch.com/
+  - description: Implemented an "adventure" style 2D game in the terminal, which supports a generic task (quest) system that allows developers to add new tasks to the game easily.
+    tags: [Code in Rust, Serde, RON]
+    link: https://gitfront.io/r/user-3433146/scjzw6WGSk71/adventurers/
+  - description: Implemented an Internet Relay Chat (IRC) server in Rust, that spawns a new OS thread for each client connection, and maintains the shared data in the main thread. The implementation also supported a generic plugin (extension) system.
+    tags: [Code in Rust, Serde, RON]
+    link: https://gitfront.io/r/user-3433146/M34VKy3AJgjr/IRC-server/
+  - description: Wrote an essay summarizing Professor Boyd’s book on convex optimization, and experimented with Boolean LP relaxation, and portfolio optimisation using CVXPY.
+    tags: [Algebra, Calculus, Optimisation,Numpy, Matplotlib, Latex, CVXPY]
+    link: https://gitfront.io/r/user-3433146/seb23eRXqhwJ/CVX-optimisation/
+  - description: Implemented the front-end of a Kahoot clone using ReactJS. The game allows an admin to host the kahoot game, and multiple players to play.
+    tags: [HTML CSS Javascript, React]
+    link: https://gitfront.io/r/user-3433146/1TPPcc4fSt3e/Kahoot-Clone/
+  - description: Worked in a team to develop an event management platform TicketPlanet similar to Eventbrite. I worked mainly on the front-end React code, and backend logic such as search filter, recommender system.
+    tags: [HTML CSS Javascript, React, MongoDB, FastAPI, Railway]
+    link: https://gitfront.io/r/user-3433146/P3HkkDp8Qf5k/TicketPlanet/
+
+- title: USYD Projects
   period:
-    start: "2018-12-20T00:00:00Z"
-    end: "2019-04-12T00:00:00Z"
-  location: *atlanta
+    start: "2018-03-20T00:00:00Z"
+    end: "2021-06-25T00:00:00Z"
+  location: *sydney
   duty:
-  - description: Lead research and development of machine learning applied to trading equity and commodity markets.
-    tags: [pandas, NumPy, TensorFlow, statsmodels, PyMC3, scikit-learn, Dask, Matplotlib, Jenkins, Git, Airflow, Redis, Cython, PostgreSQL]
-  - description: Worked directly with data providers and portfolio managers to discover new investment strategies leveraging alternative data sets.
-    tags: [pandas, NumPy, statsmodels, PySpark, Matplotlib, Airflow, EC2, EMR, Redshift, PostgreSQL]
-- title: Analytic Consultant, Data Science
-  organization: Wells Fargo
-  website: https://www.wellsfargo.com/
+  - description: Implemented traffic sign detection algorithms using a combination of computer vision (openCV) and Neural Network (TensorFlow) and tested using simulated and real-world data. I also worked on interfacing the model prediction with RMracerlib which is a python library used for controlling model cars.
+    tags: [Numpy, Matplotlib, pandas, TensorFlow, OpenCV binding]
+    link: https://github.com/Yuanda-Dong/Sign-Detection-Client-Final-Deployment
+  - description: Worked with biochemistry students to apply network analysis techniques to identify critical nodes in Yeast Network for limiting the proliferation of cancers.
+    tags: [Numpy, Matplotlib, pandas, Networkx]
+    link: https://github.com/Yuanda-Dong/Network-Analysis-to-PPI-Network
+  - description: Worked in a team to built parser, compiler and intepretor for a simple imperative language µ in Java. We also did compiler optimisation such as unreachable code removal, constant propagation, and deadcode elimination.
+    tags: [Java]
+    link: https://gitfront.io/r/user-3433146/YogCP6vcEEWj/programming-language/
+
+- title: Side Projects
   period:
-    start: "2018-09-01T00:00:00Z"
-    end: "2018-12-01T00:00:00Z"
-  location: *atlanta
+    start: "2022-12-20T00:00:00Z"
+    end: "2023-05-3T00:00:00Z"
+  location: *sydney
   duty:
-  - description: Identified high-risk customers from electronic communications using deep learning NLP models.
-    tags: [pandas, NumPy, PyTorch, scikit-learn, spaCy, nltk, Matplotlib, Linux Bash]
-  - description: Designed Spark data pipelines for cleaning, redacting, and lexing terabytes of unstructured text data.
-    tags: [pandas, scikit-learn, spaCy, nltk, PySpark, PostgreSQL]
-- title: Data Scientist
-  organization: IntegriChain
-  website: https://www.integrichain.com/
-  period:
-    start: "2017-08-01T00:00:00Z"
-    end: "2018-09-01T00:00:00Z"
-  location: &philadelphia
-    city: Philadelphia
-    state: PA
-    country: US
-  duty:
-  - description: Developed novel statistical models for providing visibility into pharmaceutical supply chains, driving millions in revenue per year.
-    tags: [pandas, NumPy, statsmodels, EC2, MySQL, Linux Bash, R]
-  - description: Designed NLP models to automate master data entity matching, saving thousands of analyst work hours.
-    tags: [pandas, NumPy, scikit-learn, EC2, Cython, MySQL, Linux Bash]
-  - description: Built models for predicting patient-level adherence gaps in high-value specialty pharma, allowing for proactive resolutions.
-    tags: [pandas, NumPy, scikit-learn, Apache Spark, AWS SDK, Docker, EC2, Batch, RDS, MySQL]
-- title: Senior Data Analyst
-  organization: IntegriChain
-  website: https://www.integrichain.com/
-  period:
-    start: "2016-02-01T00:00:00Z"
-    end: "2017-08-01T00:00:00Z"
-  location: *philadelphia
-  duty:
-  - description: Migrated on-prem data services to AWS, refactoring legacy ETL code into modern Python and Scala.
-    tags: [pandas, NumPy, boto3, Apache Spark, AWS SDK, Cats, Cats-effect, S3, EMR, Glue, RDS, Linux Bash, MySQL]
+  - description: Implemented parallel prefix-sum, and parallelised a circle rendering algorithm that utilistes the GPU in Cuda. The Code was ran on an Amazon EC2 instance.
+    tags: [Code in C++, Cuda, AWS EC2]
+    link: https://gitfront.io/r/user-3433146/LBLJTWSbE2Em/cuda/
+  - description: Implemented a C++ library that executes tasks provided by an application in parallel using a thread pool. Conditional variables are used to prevent threads from busy waiting.
+    tags: [Code in C++]
+    link: https://gitfront.io/r/user-3433146/NnBmezce1Vx4/Task-Execution-Library/
+  - description: Customised my Emacs with Emacs lisp. I learnt alot about what I wanted from editors in doing so.
+    tags: [Emacs Lisp]
+    link: https://github.com/Yuanda-Dong/Emacs-Config
+  - description: Implemented and analysed various numerical algorithms, such as finite difference method, QR factorisation, graph partitioning using eigenvectors, Broyden's Method for root finding, gradient descent, and Adaptive Interpolation for (not so smooth) functions.
+    tags: [Numpy, Algebra, Calculus, Numerical Analysis]
+    link: https://gitfront.io/r/user-3433146/aptp4m6B1P6A/Num-Homework/
+  - description: Implemented some core algorithms of the rasterisaiton pipeline (WIP).
+    tags: [Code in C++]
+    link: https://gitfront.io/r/user-3433146/Gozb4oBZx8v2/MyScotty3D/
+  - description: Implemented a simple linux command pstree in Rust.
+    tags: [Linux, Code in Rust]
+    link: https://gitfront.io/r/user-3433146/v1wD7a5QyQnS/Pstree/
+  - description: Worked on a Github actions pipeline that allows me to write blogs in Emacs org mode, and publish on github pages easily.
+    tags: [Github Actions]
+    link: https://github.com/Yuanda-Dong/Yuanda-Dong.github.io
+
 skills:
-- category: Rust
-  tags:
-  - Actix
-  - Actix-web
-  - Rusoto
-  - Tokio
-  - Diesel
-  - Serde
-  - bindgen
-  - wasm-bindgen
-  - PyO3
-  - Syn
-  - Quote
 - category: Python
   tags:
-  - pandas
-  - NumPy
-  - TensorFlow
-  - PyTorch
-  - statsmodels
-  - PyMC3
-  - scikit-learn
-  - spaCy
-  - nltk
-  - Dask
-  - PySpark
-  - flask
-  - Tornado
-  - asyncio
-  - boto3
+  - Numpy
   - Matplotlib
-  - Plotly
-- category: Scala
+  - pandas
+  - TensorFlow
+  - SageMath
+  - Networkx
+  - FastAPI
+  - CVXPY
+  - OpenCV binding
+- category: Rust
   tags:
-  - Apache Spark
-  - AWS SDK
-  - Cats
-  - Cats-effect
-- category: DevOps
+  - Code in Rust
+  - Serde
+  - RON
+- category: C++
   tags:
-  - Docker
-  - Kubernetes
-  - Prometheus
-  - Helm
-  - Jenkins
-  - GitHub Actions
-  - Git
-  - Airflow
-  - Redis
-  - Kafka
-  - Serverless
-  - GKE
-- category: AWS
+  - Code in C++
+  - Intel ISPC
+  - Cuda
+- category: Web Development
   tags:
-  - EC2
-  - S3
-  - ECR
-  - EKS
-  - EMR
-  - Batch
-  - Glue
-  - DynamoDB
-  - Lambda
-  - CloudFront
-  - RDS
-  - Redshift
-  - CloudFormation
-  - SageMaker
+  - HTML CSS Javascript
+  - React
+  - MongoDB
+- category: Maths
+  tags:
+  - Algebra
+  - Calculus
+  - Statistics
+  - Optimisation
+  - Network Analysis
+  - Numerical Analysis
 - category: Other
   tags:
-  - Linux Bash
-  - Cython
-  - MySQL
-  - PostgreSQL
-  - BigQuery
+  - Java
   - R
+  - Linux
+  - AWS EC2
+  - Docker
+  - Github Actions
+  - Sql
+  - Latex
+  - Emacs Lisp
+  - Magit!
+  - Railway

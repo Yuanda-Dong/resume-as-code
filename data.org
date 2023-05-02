@@ -1,0 +1,45 @@
+skills:
+- category: Python
+  tags:
+  - Numpy
+  - Matplotlib
+  - pandas
+  - TensorFlow
+  - SageMath
+  - Networkx
+  - FastAPI
+- category: Rust
+  tags:
+  - Code in Rust
+  - Serde
+  - RON
+- category: C++
+  tags:
+  - Code in C++
+  - Intel ISPC
+  - Cuda
+- category: Web Development
+  tags:
+  - HTML, CSS, Javascript
+  - React
+  - MongoDB
+- category: Maths
+  tags:
+  - Algebra
+  - Calculus
+  - Statistics
+  - Optimisation
+  - Network Analysis
+  - Numerical Analysis
+- category: Other
+  tags:
+  - Java
+  - R
+  - Linux
+  - AWS EC2
+  - Docker
+  - Github Actions
+  - Sql
+  - Latex
+  - Emacs Lisp
+  - Magit!

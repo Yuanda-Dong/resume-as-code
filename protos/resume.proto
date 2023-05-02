@@ -61,6 +61,7 @@ message Experience {
 message Duty {
     string description = 1;
     repeated string tags = 2;
+    string link = 3;
 }
 
 message SkillCategory {

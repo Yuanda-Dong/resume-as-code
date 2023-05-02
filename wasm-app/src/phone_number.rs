@@ -39,7 +39,7 @@ impl Component for PhoneNumberComponent {
             .rev()
             .enumerate()
         {
-            if (i == 4) | (i == 7) {
+            if (i == 3) | (i == 6) {
                 phone.insert(0, '-');
             }
             phone.insert(0, c);

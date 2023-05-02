@@ -1,0 +1,38 @@
+* Python
+- Numpy
+- Matplotlib
+- pandas
+- TensorFlow
+- SageMath
+- Networkx
+- FastAPI
+* Rust
+- Code in Rust
+- Serde
+- RON
+- Clap, docopt
+* C++
+- Code in C++
+- Intel ISPC
+- Cuda
+* Web Development
+- HTML, CSS, Javascript
+- React
+- MongoDB
+* Maths
+- Algebra
+- Calculus
+- Statistics
+- Optimisation
+- Network Analysis
+- Numerical Analysis
+* Other
+- Java
+- R
+- Linux
+- AWS EC2
+- Docker
+- Github Actions
+- Postgresql
+- Latex
+- Emacs Lisp

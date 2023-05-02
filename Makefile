@@ -16,6 +16,8 @@ build:  ## Compile the resume data into protobuf binary
 
 wasm:  ## Compiile the WASM rust app
 	cd wasm-app && $(MAKE) build
+	cd wasm-app && cp pkg/wasm_app_bg.wasm ../pkg/
+
 
 all: python rust build wasm  ## Run both Python & Rust codegens, build the resume, build the wasm app
 

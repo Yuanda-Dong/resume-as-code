@@ -52,7 +52,8 @@ impl Component for ResumeComponent {
     fn view(&self) -> Html {
         let res = &self.props.resume;
         let github = format!("github.com/{}", res.get_github_profile());
-        let linkedin = format!("linkedin.com/in/{}", res.get_linkedin_profile());
+        let linkedin = format!("linkedin.com");
+        let linkedinreal = format!("linkedin.com/in/{}", res.get_linkedin_profile());
         let phone = res.get_phone_number().clone();
         let location = res.get_location().clone();
         let education = res.get_education().to_vec();
@@ -71,7 +72,7 @@ impl Component for ResumeComponent {
                         <li><PhoneNumberComponent phone=phone /></li>
                         <li><a href=format!("https://{}", &github)>
                             <i class="fab fa-github"></i>{ github }</a></li>
-                        <li><a href=format!("https://{}", &linkedin)>
+                        <li><a href=format!("https://{}", &linkedinreal)>
                             <i class="fab fa-linkedin-in"></i>{ linkedin }</a></li>
                         <li><LocationComponent location=location /></li>
                     </ul>
