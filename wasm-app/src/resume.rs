@@ -52,7 +52,7 @@ impl Component for ResumeComponent {
     fn view(&self) -> Html {
         let res = &self.props.resume;
         let github = format!("github.com/{}", res.get_github_profile());
-        let linkedin = format!("linkedin.com");
+        let linkedin = format!("linkedin");
         let linkedinreal = format!("linkedin.com/in/{}", res.get_linkedin_profile());
         let phone = res.get_phone_number().clone();
         let location = res.get_location().clone();
@@ -120,7 +120,7 @@ impl ResumeComponent {
                         </a>
                     </li>
                     <li class="print-only">
-                        { "View this resume as a WebAssembly app:" }
+                        { "View this resume as an (❤️ interative) WebAssembly app:" }
                         <p>
                             <i class="fa fa-external-link" aria-hidden="true"></i>
                             { host_link }

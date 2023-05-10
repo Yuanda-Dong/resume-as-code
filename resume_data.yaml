@@ -12,7 +12,7 @@ location: &sydney
 linkedin_profile: yuanda-d-131a33105
 github_profile: Yuanda-Dong
 about_me: >
-  Aspiring software engineer with background in mathematics. Self-motivated learner and problem solver with an affinity for automation, scalability and extensibility.
+  Aspiring software engineer with background in mathematics. Self-motivated learner, problem solver and linux hacker.
 education:
 - institution: University of New South Wales
   major: Computer Science
@@ -50,13 +50,13 @@ experience:
     end: "2022-12-15T00:00:00Z"
   location: *sydney
   duty:
-  - description: Implemented an "adventure" style 2D game in the terminal, which supports a generic task (quest) system that allows developers to add new tasks to the game easily.
+  - description: Implemented an "adventure" style 2D game in the terminal, which supports a generic quest system that allows players to add new quests to the game easily.
     tags: [Code in Rust, Serde, RON]
     link: https://gitfront.io/r/user-3433146/scjzw6WGSk71/adventurers/
-  - description: Implemented an Internet Relay Chat (IRC) server in Rust, that spawns a new OS thread for each client connection, and maintains the shared data in the main thread. The implementation also supported a generic plugin (extension) system.
+  - description: Implemented an Internet Relay Chat (IRC) server in Rust, that spawns a new OS thread for each client connection, and maintains the shared data in the main thread.
     tags: [Code in Rust, Serde, RON]
     link: https://gitfront.io/r/user-3433146/M34VKy3AJgjr/IRC-server/
-  - description: Wrote an essay summarizing Professor Boyd’s book on convex optimization, and experimented with Boolean LP relaxation, and portfolio optimisation using CVXPY.
+  - description: Wrote an essay summarizing convex optimization, and experimented with Boolean LP relaxation, and portfolio optimisation using CVXPY.
     tags: [Algebra, Calculus, Optimisation,Numpy, Matplotlib, Latex, CVXPY]
     link: https://gitfront.io/r/user-3433146/seb23eRXqhwJ/CVX-optimisation/
   - description: Implemented the front-end of a Kahoot clone using ReactJS. The game allows an admin to host the kahoot game, and multiple players to play.
@@ -72,13 +72,13 @@ experience:
     end: "2021-06-25T00:00:00Z"
   location: *sydney
   duty:
-  - description: Implemented traffic sign detection algorithms using a combination of computer vision (openCV) and Neural Network (TensorFlow) and tested using simulated and real-world data. I also worked on interfacing the model prediction with RMracerlib which is a python library used for controlling model cars.
+  - description: Worked in a team to implement traffic sign detection algorithms using a combination of computer vision and neural network and tested using simulated and real-world data. I also worked on interfacing the model prediction with controlling model cars.
     tags: [Numpy, Matplotlib, pandas, TensorFlow, OpenCV binding]
     link: https://github.com/Yuanda-Dong/Sign-Detection-Client-Final-Deployment
-  - description: Worked with biochemistry students to apply network analysis techniques to identify critical nodes in Yeast Network for limiting the proliferation of cancers.
+  - description: Worked with biochemistry students to apply network analysis techniques to identify critical nodes in yeast network for limiting cancer.
     tags: [Numpy, Matplotlib, pandas, Networkx]
     link: https://github.com/Yuanda-Dong/Network-Analysis-to-PPI-Network
-  - description: Worked in a team to built parser, compiler and intepretor for a simple imperative language µ in Java. We also did compiler optimisation such as unreachable code removal, constant propagation, and deadcode elimination.
+  - description: Worked in a team to built parser and intepretor for a simple imperative language µ in Java. It's similar to building a CPU instructions emulator, except that we get input as ASTs instead of instructions. We also did compiler optimisation such as unreachable code removal.
     tags: [Java]
     link: https://gitfront.io/r/user-3433146/YogCP6vcEEWj/programming-language/
 
@@ -94,21 +94,18 @@ experience:
   - description: Implemented a C++ library that executes tasks provided by an application in parallel using a thread pool. Conditional variables are used to prevent threads from busy waiting.
     tags: [Code in C++]
     link: https://gitfront.io/r/user-3433146/NnBmezce1Vx4/Task-Execution-Library/
-  - description: Customised my Emacs with Emacs lisp. I learnt alot about what I wanted from editors in doing so.
-    tags: [Emacs Lisp]
-    link: https://github.com/Yuanda-Dong/Emacs-Config
-  - description: Implemented and analysed various numerical algorithms, such as finite difference method, QR factorisation, graph partitioning using eigenvectors, Broyden's Method for root finding, gradient descent, and Adaptive Interpolation for (not so smooth) functions.
+  - description: Implemented and analysed various numerical algorithms, such as finite difference method, QR factorisation, graph partitioning, root finding, gradient descent etc.
     tags: [Numpy, Algebra, Calculus, Numerical Analysis]
     link: https://gitfront.io/r/user-3433146/aptp4m6B1P6A/Num-Homework/
-  - description: Implemented some core algorithms of the rasterisaiton pipeline (WIP).
-    tags: [Code in C++]
-    link: https://gitfront.io/r/user-3433146/Gozb4oBZx8v2/MyScotty3D/
   - description: Implemented a simple linux command pstree in Rust.
     tags: [Linux, Code in Rust]
     link: https://gitfront.io/r/user-3433146/v1wD7a5QyQnS/Pstree/
-  - description: Worked on a Github actions pipeline that allows me to write blogs in Emacs org mode, and publish on github pages easily.
-    tags: [Github Actions]
+  - description: Made a personal blogging website that uses emacs org-mode, and this resume website, both with Github Pages.
+    tags: [Github Actions, Emacs Lisp, Code in Rust]
     link: https://github.com/Yuanda-Dong/Yuanda-Dong.github.io
+  - description: Implemented parts of the rasterisaiton pipeline (WIP).
+    tags: [Code in C++]
+    link: https://gitfront.io/r/user-3433146/Gozb4oBZx8v2/MyScotty3D/
 
 skills:
 - category: Python
@@ -137,6 +134,7 @@ skills:
   - HTML CSS Javascript
   - React
   - MongoDB
+  - Railway
 - category: Maths
   tags:
   - Algebra
@@ -148,7 +146,6 @@ skills:
 - category: Other
   tags:
   - Java
-  - R
   - Linux
   - AWS EC2
   - Docker
@@ -157,4 +154,3 @@ skills:
   - Latex
   - Emacs Lisp
   - Magit!
-  - Railway

@@ -103,8 +103,9 @@ impl ExperienceComponent {
         html! {
             <li class=class onmouseover=mouseover onmouseout=mouseout>
             <a href={ duty.get_link() } style="color: inherit; text-decoration: none;">
-                { duty.get_description() }
+            { "🔗 " }
             </a>
+            { duty.get_description() }
             </li>
         }
     }
