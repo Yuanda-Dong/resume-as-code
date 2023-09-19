@@ -30,19 +30,7 @@ education:
     end: "2021-06-25T00:00:00Z"
   degree: BACHELORS
   location: *sydney
-# experience:
-# - title: Quantitative Analyst
-#   organization: Lucena Research
-#   website: https://lucenaresearch.com/
-#   period:
-#     start: "2018-12-20T00:00:00Z"
-#     end: "2019-04-12T00:00:00Z"
-#   location: *sydney
-#   duty:
-#   - description: Lead research and development of machine learning applied to trading equity and commodity markets.
-#     tags: [pandas, NumPy, TensorFlow, statsmodels, PyMC3, scikit-learn, Dask, Matplotlib, Jenkins, Git, Airflow, Redis, Cython, PostgreSQL]
-#   - description: Worked directly with data providers and portfolio managers to discover new investment strategies leveraging alternative data sets.
-#     tags: [pandas, NumPy, statsmodels, PySpark, Matplotlib, Airflow, EC2, EMR, Redshift, PostgreSQL]
+
 experience:
 - title: UNSW Projects
   period:
@@ -51,13 +39,13 @@ experience:
   location: *sydney
   duty:
   - description: Implemented an "adventure" style 2D game in the terminal, which supports a generic quest system that allows players to add new quests to the game easily.
-    tags: [Code in Rust, Serde, RON]
+    tags: [Code in Rust, Serde]
     link: https://gitfront.io/r/user-3433146/scjzw6WGSk71/adventurers/
   - description: Implemented an Internet Relay Chat (IRC) server in Rust, that spawns a new OS thread for each client connection, and maintains the shared data in the main thread.
-    tags: [Code in Rust, Serde, RON]
+    tags: [Code in Rust, Serde]
     link: https://gitfront.io/r/user-3433146/M34VKy3AJgjr/IRC-server/
   - description: Wrote an essay summarizing convex optimization, and experimented with Boolean LP relaxation, and portfolio optimisation using CVXPY.
-    tags: [Algebra, Calculus, Optimisation,Numpy, Matplotlib, Latex, CVXPY]
+    tags: [Linear Algebra, Calculus, Optimisation,Numpy, Matplotlib, Latex, CVXPY]
     link: https://gitfront.io/r/user-3433146/seb23eRXqhwJ/CVX-optimisation/
   - description: Implemented the front-end of a Kahoot clone using ReactJS. The game allows an admin to host the kahoot game, and multiple players to play.
     tags: [HTML CSS Javascript, React]
@@ -75,37 +63,28 @@ experience:
   - description: Worked in a team to implement traffic sign detection algorithms using a combination of computer vision and neural network and tested using simulated and real-world data. I also worked on interfacing the model prediction with controlling model cars.
     tags: [Numpy, Matplotlib, pandas, TensorFlow, OpenCV binding]
     link: https://github.com/Yuanda-Dong/Sign-Detection-Client-Final-Deployment
-  - description: Worked with biochemistry students to apply network analysis techniques to identify critical nodes in yeast network for limiting cancer.
-    tags: [Numpy, Matplotlib, pandas, Networkx]
-    link: https://github.com/Yuanda-Dong/Network-Analysis-to-PPI-Network
-  - description: Worked in a team to built parser and intepretor for a simple imperative language µ in Java. It's similar to building a CPU instructions emulator, except that we get input as ASTs instead of instructions. We also did compiler optimisation such as unreachable code removal.
+  - description: Worked in a team to built parser and intepretor for a simple imperative language µ in Java. We also did compiler optimisation such as unreachable code removal.
     tags: [Java]
     link: https://gitfront.io/r/user-3433146/YogCP6vcEEWj/programming-language/
 
 - title: Side Projects
   period:
     start: "2022-12-20T00:00:00Z"
-    end: "2023-05-3T00:00:00Z"
+    end: "2023-09-3T00:00:00Z"
   location: *sydney
   duty:
   - description: Implemented parallel prefix-sum, and parallelised a circle rendering algorithm that utilistes the GPU in Cuda. The Code was ran on an Amazon EC2 instance.
-    tags: [Code in C++, Cuda, AWS EC2]
+    tags: [STL, Cuda, AWS EC2]
     link: https://gitfront.io/r/user-3433146/LBLJTWSbE2Em/cuda/
-  - description: Implemented a C++ library that executes tasks provided by an application in parallel using a thread pool. Conditional variables are used to prevent threads from busy waiting.
-    tags: [Code in C++]
+  - description: Implemented a C++ library that executes tasks provided by an application in parallel using a thread pool.
+    tags: [STL]
     link: https://gitfront.io/r/user-3433146/NnBmezce1Vx4/Task-Execution-Library/
   - description: Implemented and analysed various numerical algorithms, such as finite difference method, QR factorisation, graph partitioning, root finding, gradient descent etc.
-    tags: [Numpy, Algebra, Calculus, Numerical Analysis]
+    tags: [Numpy, Linear Algebra, Calculus, Numerical Analysis]
     link: https://gitfront.io/r/user-3433146/aptp4m6B1P6A/Num-Homework/
-  - description: Implemented a simple linux command pstree in Rust.
-    tags: [Linux, Code in Rust]
+  - description: Implemented various OS primitives such as strace, user level thread, copy on write fork, buffer cache, etc on Xv6 that works on Risc-V processors in qemu.
+    tags: [Xv6, Risc-V assembly]
     link: https://gitfront.io/r/user-3433146/v1wD7a5QyQnS/Pstree/
-  - description: Made a personal blogging website that uses emacs org-mode, and this resume website, both with Github Pages.
-    tags: [Github Actions, Emacs Lisp, Code in Rust]
-    link: https://github.com/Yuanda-Dong/Yuanda-Dong.github.io
-  - description: Implemented parts of the rasterisaiton pipeline (WIP).
-    tags: [Code in C++]
-    link: https://gitfront.io/r/user-3433146/Gozb4oBZx8v2/MyScotty3D/
 
 skills:
 - category: Python
@@ -114,8 +93,6 @@ skills:
   - Matplotlib
   - pandas
   - TensorFlow
-  - SageMath
-  - Networkx
   - FastAPI
   - CVXPY
   - OpenCV binding
@@ -123,12 +100,15 @@ skills:
   tags:
   - Code in Rust
   - Serde
-  - RON
 - category: C++
   tags:
-  - Code in C++
+  - STL 
   - Intel ISPC
   - Cuda
+- category: Operating System
+  tags:
+  - Xv6
+  - Risc-V assembly
 - category: Web Development
   tags:
   - HTML CSS Javascript
@@ -137,7 +117,7 @@ skills:
   - Railway
 - category: Maths
   tags:
-  - Algebra
+  - Linear Algebra
   - Calculus
   - Statistics
   - Optimisation
@@ -152,5 +132,4 @@ skills:
   - Github Actions
   - Sql
   - Latex
-  - Emacs Lisp
   - Magit!
